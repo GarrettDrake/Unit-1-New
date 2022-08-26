@@ -1,0 +1,22 @@
+data MoneyInHand;
+input SMU Seattle;
+datalines;
+34 20 
+1200 10
+50 5
+60 0
+50 30
+10 50
+0 0 
+30 100
+89 110
+0 0 
+300 0 
+400 40
+20 10
+10 3
+0 0;
+
+proc univariate data= MoneyInHand;
+histogram;
+run;
