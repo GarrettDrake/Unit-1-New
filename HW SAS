@@ -81,7 +81,7 @@ proc univariate data=diff;
   histogram mean;                                                                                                                                                                                                            
 run;                                                                                                                                                                                                                         
                                                                                                                                                                                   
-*The code below calculates the number of randomly generated differences that are as extreme or more extreme thant the one observed (divide this number by 1000 you have the pvalue);                                         
+*Calculates the number of randomly generated differences that are as extreme or more extreme thant the one observed (divide this number by 1000 you have the pvalue);                                         
 *check the log to see how many observations are in the data set.... divide this by 1000 (or however many permutations you generated) and that is the (one sided)p-value;                                                     
 data numdiffs;                                                                                                                                                                                                               
 set diff;                                                                                                                                                                                                                    
