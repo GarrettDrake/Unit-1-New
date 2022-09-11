@@ -3,11 +3,11 @@ input School Money; /* 0 is SMU / 1 is Seattle*/
 datalines;
 0 34 
 0 1200
+0 23
 0 50
 0 60
-0 60
 0 50
-0 10
+0 0
 0 0
 0 30
 0 89
