@@ -85,5 +85,5 @@ run;
 data numdiffs;                                                                                                                                                                                                               
 set diff;                                                                                                                                                                                                                    
 where method = "Pooled";                                                                                                                                                                                                     
-if abs(mean) >= 119.4;   *you will need to put the observed difference you got from t test above here.  note if you have a one or two tailed test.;                                                                           
+if abs(mean) >= 114.6;   *you will need to put the observed difference you got from t test above here.  note if you have a one or two tailed test.;                                                                           
 run;  
